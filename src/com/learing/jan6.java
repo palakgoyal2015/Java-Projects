@@ -11,7 +11,7 @@
 
 package com.learing;
 
-public class demo {
+public class jan6 {
     public static void main(String[] args){
         String name="palak";
         String Father_name="rakesh";
