@@ -1,4 +1,4 @@
-package com.learing;
+/*package com.learing;
  
 public class jan7 {
     public void func(){
@@ -82,4 +82,20 @@ public void evenOdd(int num){
    System.out.println(o1.ternary2()); 
    o1.evenOdd(111);
  }
+}
+*/ 
+//  assignment day 2
+package com.learing;
+public class jan7{ 
+    public int sumOfFirstNNumbers(int num){
+        return (num*(num+1))/2;
+    } 
+    public int comparision(int a,int b){
+       return a>b?1:-1;
+    }
+    public static void main(String[] args){
+     jan7 o1=new jan7();
+     System.out.println(o1.sumOfFirstNNumbers(4));
+     System.out.println(o1.comparision(5, 4));
+    }
 }
